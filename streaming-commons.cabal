@@ -30,8 +30,6 @@ library
                        Data.Streaming.ByteString.Builder.Buffer
                        Data.Streaming.FileRead
                        Data.Streaming.Filesystem
-                       Data.Streaming.Network
-                       Data.Streaming.Network.Internal
                        Data.Streaming.Process
                        Data.Streaming.Process.Internal
                        Data.Streaming.Text
@@ -77,7 +75,6 @@ test-suite test
     other-modules:  Data.Streaming.ByteString.BuilderSpec
                     Data.Streaming.FileReadSpec
                     Data.Streaming.FilesystemSpec
-                    Data.Streaming.NetworkSpec
                     Data.Streaming.ProcessSpec
                     Data.Streaming.TextSpec
                     Data.Streaming.ZlibSpec
